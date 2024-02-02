@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+ body{
+    background-color: black;
+}
+
+.navbar {
+    background-color: #ABF62D;
+    transition: 500ms;
+    height: 10vh;
+
+}
+
+.navbar:hover{
+    background-color: #9ad23a;
+}
+#sidebar {
+    margin-top: 5px;
+    height: 80vh;
+    background-color: rgb(20, 36, 11);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.profile-info {
+    display: none;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+.footer {
+    height: 10vh;
+    background-color: #ABF62D;
+    margin-top: 5px;
+
+
+}
+
+li{
+    list-style: none;
+    color: #cf8efd;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+li:hover {
+    color: #f6e8ff;
+    transform: scale(1.1);
+    
+    
+}
+#main-body {
+    
+
+}
+#search-music {
+    margin: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+#search-field {
+    width: 350px;
+    height: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    text-align: center;
+    background-color: #dfe0dc;
+    border: none;
+
+}
+#search-btn {
+    width: 100px;
+    height: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #b767f0;
+    border: none;
+    transition: 500ms;
+
+
+
+}
+#search-btn:hover {
+    background-color: #c7a2e1;
+}
