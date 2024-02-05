@@ -16,18 +16,22 @@
     <title>My Spotify Profile</title>
     </head>
     <body>
-        <h1>Display your Spotify profile data</h1>
-
-        <section id="profile">
-        <h2>Logged in as <span id="displayName"></span></h2>
-        <span id="avatar"></span>
-        <ul>
-            <li>User ID: <span id="id"></span></li>
-            <li>Spotify URI: <a id="uri" href="#"></a></li>
-            <li>Link: <a id="url" href="#"></a></li>
-            <li>Profile Image: <span id="imgUrl"></span></li>
-            <li><a href="signup.html">signup</a></li>
-        </ul>
+        <a href="index.html">
+            <h1 id="logo">Spotify</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="Favorite">Favourite</a></li>
+                <li><a href="Fitness Status">Fitness Status</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+       
         </section>
            <!-- Footer -->
     <footer>

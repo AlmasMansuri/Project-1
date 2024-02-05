@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -18,16 +19,32 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-#profile {
-    background-image: url("../images/spotify-logo-1920x1080.jpg");
-    color: #ffffff;
-    background-size: cover;
-    background-position: center;
-    border: 2px solid;
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#252525;
 }
 
-#profile a {
-    color: #ffffff;
+.hidden-heading {
+    display: none;
+}
+
+/*Header*/
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 /* Form */
 #signup {
