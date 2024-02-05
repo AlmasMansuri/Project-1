@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1></h1>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars"></i>
+    <section id="signup">
+        <form id="signup-form" method="POST" action="https.google.com">
+            <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" class="text-input" required>
+            <br>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" class="text-input" required>
+            <br>
+            <label for="email_address">Email Address</label>
+            <input type="email" name="email_address" id="email_address" class="text-input" required>
+            <br>
+            <div class="radio-buttons">
+                <div>
+                    <label for="road">Road</label>
+                    <input type="radio" name="running_preference" id="road" value="road" required checked>
+                </div>
+                <div>
+                    <label for="trail">Trail</label>
+                    <input type="radio" name="running_preference" id="trail" value="trail" required>
+                </div>
+                <div>
+                    <label for="both">Both</label>
+                    <input type="radio" name="running_preference" id="both" value="both" required>
+                </div>
+            </div>
+            <button type="submit" class="join-button">Let's Run!</button>
+        </form>
+    </section>
 </body>
 </html>
