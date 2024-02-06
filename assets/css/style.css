@@ -90,3 +90,31 @@ li:hover {
 #search-btn:hover {
     background-color: #c7a2e1;
 }
+.card {
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    height: 100px;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card-body {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e78d3;
+    border-radius: 8px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: 500;
+  }
+
+  .mt-5 {
+    margin-top: 2rem !important;
+  }
