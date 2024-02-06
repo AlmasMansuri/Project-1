@@ -32,6 +32,7 @@ h1, h2, h3 {
 
 /*Header*/
 header {
+    background-image: url("");
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
@@ -58,14 +59,15 @@ header a {
 /*Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color:black;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
+    display:none ;
     top: 100%;
 }
+
 
 /*nav-toggle*/
 #nav-toggle:checked~nav {
@@ -73,16 +75,16 @@ nav {
 }
 
 #nav-toggle {
-    display: none;
+    display: flex;
 }
 .nav-toggle-label {
     font-size: 2rem;
 }
 menu{ 
- font-size: 110%;
- letter-spacing: 4px;
- list-style-type: none;
-}
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+   }
 
 #menu >li {
     margin-bottom: 1em;
@@ -93,8 +95,9 @@ menu{
 }
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(12, 4, 4, 0.6);
     padding: 30px;
+    border-radius: 20px;
 }
 
 
