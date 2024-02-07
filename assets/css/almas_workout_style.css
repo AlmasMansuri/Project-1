@@ -1,0 +1,12 @@
+#typeDiv {
+  display: block;
+}
+#bodyPartDiv {
+  display: none;
+}
+#targetDiv {
+  display: none;
+}
+#equipDiv {
+  display: none;
+}
