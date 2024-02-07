@@ -4,11 +4,12 @@
 
 }
  body{
-    background-color: black;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar {
-    background-color: #ABF62D;
+    background-color:#2bdf28;
     transition: 500ms;
     height: 10vh;
 
@@ -18,11 +19,10 @@
     background-color: #9ad23a;
 }
 #sidebar {
-    margin-top: 5px;
     height: 80vh;
     background-color: rgb(20, 36, 11);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+  
+    margin: 0;
 }
 .profile-info {
     display: none;
@@ -34,8 +34,8 @@
 
 .footer {
     height: 10vh;
-    background-color: #ABF62D;
-    margin-top: 5px;
+    background-color:#2bdf28
+ 
 
 
 }
@@ -59,14 +59,25 @@
     
     
 }
-#main-body {
-    
 
+h1, h3 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  padding: 50px;
+  text-align: center;
+}
+p {
+  color: #1a1a1a;
+  font-weight: 500;
+  font-size: medium;
+  padding: 50px;
+
+  text-align: center;
 }
 #search-music {
     margin: 10px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 
 }
@@ -157,4 +168,43 @@
 
   li {
     margin-bottom: 10px;
+  }
+  #hero-section {
+    background-color: #c7a2e1;
+    background-image: url('./assets/images/Letter M Gym Logo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+  div{
+    margin: 0;
+  }
+  #main-body {
+    color: #040303;
+    padding: 0;
+    margin: 0;
+    height: 80vh;
+    overflow: scroll;
+
+  }
+  #registration{
+    padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+  }
+  #registration button {
+    width: 200px;
+    height: 40px;
+    background-color: #298cef;
+    color: whitesmoke;
+    border: none;
+    margin: 4px;
+    border-radius: 40px;
+    transition: 500ms;
+  }
+  #registration button:hover {
+    background-color: #2528eb;
   }
