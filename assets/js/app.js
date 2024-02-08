@@ -15,7 +15,7 @@ const APIController = (function() {
             body: 'grant_type=client_credentials'
         });
 
-        const data = await result.json();
+        const data = await result.json();   
         return data.access_token;
     }
     
@@ -53,8 +53,10 @@ const APIController = (function() {
         });
 
         const data = await result.json();
+        console.log(data.items);
         return data.items;
     }
+  
 
     const _getTrack = async (token, trackEndPoint) => {
 
@@ -64,6 +66,9 @@ const APIController = (function() {
         });
 
         const data = await result.json();
+        
+        var track_uri = data.uri;
+        console.log(track_uri);
         return data;
     }
 
@@ -81,6 +86,7 @@ const APIController = (function() {
             return _getTracks(token, tracksEndPoint);
         },
         getTrack(token, trackEndPoint) {
+            console.log(trackEndPoint);
             return _getTrack(token, trackEndPoint);
         }
     }
@@ -141,7 +147,7 @@ const UIController = (function() {
             const html = 
             `
             <div class="row col-sm-12 px-0">
-                <img src="${img}" alt="">        
+                <img src=${img} id="track_img" alt="">        
             </div>
             <div class="row col-sm-12 px-0">
                 <label for="Genre" class="form-label col-sm-12">${title}:</label>
