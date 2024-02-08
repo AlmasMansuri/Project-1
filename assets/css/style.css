@@ -179,3 +179,16 @@ p {
   #registration button:hover {
     background-color: #2528eb;
   }
+
+  .about-us-head {
+    background-color: #cf8efd;
+  }
+  h2 ,h6{
+    padding: 10px;
+    text-align: center;
+  }
+  .card-body p {
+    text-align: center;
+    font-size: small;
+    padding: 5px;
+  }
