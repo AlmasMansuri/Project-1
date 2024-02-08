@@ -11,11 +11,17 @@
   display: none;
 }
 label {
-  background-color: yellow;
+  margin: 10px;
 }
 .widthclass{
 
   width: 300px  !important;
   height: 600px !important;
 
+}
+.btnmain {
+  width: 200px; 
+  background-color: rgb(234, 40, 234);
+  height: 50px;
+  margin: 20px;
 }
