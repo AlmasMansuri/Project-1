@@ -26,6 +26,9 @@ This Project is a combination of music and fittness applications.
 - each card shows the demonstration of exercise in GIF with name of the exercise and instructions.
 
 # Screenshots of working Applications:
+ ![home page] ![image](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(17).png?raw=true)
+ ![fitness] ![image](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(18).png?raw=true)
+
 
 ![home page screenshot](./assets/images/Homepage.png](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(17).png))
 ![music app sreenshot]([./assets/images/Homepage_music%20_app.png](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(18).png))
