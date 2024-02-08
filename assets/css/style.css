@@ -106,32 +106,7 @@ p {
 #search-btn:hover {
     background-color: #c7a2e1;
 }
-.card {
-    margin: 10px;
-    width: 100px;
-    border: none;
-    border-radius: 8px;
-    transition: transform 0.3s;
-    height: 100px;
-  }
 
-  .card:hover {
-    transform: scale(1.05);
-  }
-  .card-div {
-    margin: 10px;
-  }
-
-  .card-body {
-
-    margin: 8px;
-    text-align: center;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #ffffff;
-  }
 
   .profile-card {
     max-width: 400px;
