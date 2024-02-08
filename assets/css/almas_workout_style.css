@@ -10,3 +10,12 @@
 #equipDiv {
   display: none;
 }
+label {
+  background-color: yellow;
+}
+.widthclass{
+
+  width: 300px  !important;
+  height: 600px !important;
+
+}
