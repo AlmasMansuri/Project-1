@@ -30,9 +30,9 @@ This Project is a combination of music and fittness applications.
  ![fitness] ![image](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(18).png?raw=true)
 
 
-![home page screenshot](./assets/images/Homepage.png](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(17).png))
-![music app sreenshot]([./assets/images/Homepage_music%20_app.png](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(18).png))
-![fitness app]([./assets/images/Fitness_Page.png](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(19).png)
+![home page screenshot](./assets/images/Homepage.png](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(17).png)
+![music app sreenshot](./assets/images/Homepage_music%20_app.png](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(18).png)
+![fitness app](./assets/images/Fitness_Page.png](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(19).png)
 
 # URL of deployed Applications:
 
