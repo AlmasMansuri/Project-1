@@ -28,6 +28,8 @@ This Project is a combination of music and fittness applications.
 # Screenshots of working Applications:
  ![home page] ![image](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(17).png?raw=true)
  ![fitness] ![image](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(18).png?raw=true)
+ ![fitness] ![image](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(19).png?raw=true)
+ 
 
 
 ![home page screenshot](./assets/images/Homepage.png](https://github.com/AlmasMansuri/Project-1/blob/main/assets/images/Screenshot%20(17).png)
